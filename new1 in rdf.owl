@@ -1,0 +1,3948 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-82 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#" >
+    <!ENTITY untitled-ontology-823 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#8" >
+    <!ENTITY untitled-ontology-824 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#9" >
+    <!ENTITY untitled-ontology-8211 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#6" >
+    <!ENTITY untitled-ontology-828 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#7" >
+    <!ENTITY untitled-ontology-827 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#4" >
+    <!ENTITY untitled-ontology-8210 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#5" >
+    <!ENTITY untitled-ontology-826 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#2" >
+    <!ENTITY untitled-ontology-825 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#3" >
+    <!ENTITY untitled-ontology-8212 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#10" >
+    <!ENTITY untitled-ontology-829 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#12" >
+    <!ENTITY untitled-ontology-822 "http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#11" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"
+     xml:base="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"
+     xmlns:untitled-ontology-8210="&untitled-ontology-82;5"
+     xmlns:untitled-ontology-82="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-828="&untitled-ontology-82;7"
+     xmlns:untitled-ontology-829="&untitled-ontology-82;12"
+     xmlns:untitled-ontology-822="&untitled-ontology-82;11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-823="&untitled-ontology-82;8"
+     xmlns:untitled-ontology-826="&untitled-ontology-82;2"
+     xmlns:untitled-ontology-8212="&untitled-ontology-82;10"
+     xmlns:untitled-ontology-827="&untitled-ontology-82;4"
+     xmlns:untitled-ontology-8211="&untitled-ontology-82;6"
+     xmlns:untitled-ontology-824="&untitled-ontology-82;9"
+     xmlns:untitled-ontology-825="&untitled-ontology-82;3">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#10th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;10th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#11th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;11th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#12th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;12th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#2nd_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;2nd_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#3rd_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;3rd_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#4th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;4th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#5th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;5th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#6th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;6th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#7th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;7th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#8th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;8th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#9th_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;9th_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Abstract_Entity -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Abstract_Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Abstract_Entity
+</rdfs:label>
+        <untitled-ontology-82:Intangible>Yes</untitled-ontology-82:Intangible>
+        <untitled-ontology-82:Weightless>Yes</untitled-ontology-82:Weightless>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#An_Airthmatic_Value -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;An_Airthmatic_Value">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Cancellable_Properties -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Cancellable_Properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Commulative -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Commulative">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Conscious_mental_reaction -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Conscious_mental_reaction">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Consiousness -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Consiousness">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Defining_Properties -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Defining_Properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Discretion -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Discretion">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Entity -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Entity</rdfs:label>
+        <untitled-ontology-82:has_some_value rdf:datatype="&xsd;int"></untitled-ontology-82:has_some_value>
+        <untitled-ontology-82:has_some_name rdf:datatype="&xsd;string"></untitled-ontology-82:has_some_name>
+        <untitled-ontology-82:part_of_universe rdf:datatype="&xsd;string">yes</untitled-ontology-82:part_of_universe>
+        <untitled-ontology-82:part_of_universe rdf:datatype="&xsd;int">yes
+</untitled-ontology-82:part_of_universe>
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Exceptions -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Exceptions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Fifth_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Fifth_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Fourth_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Fourth_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Instances -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Instances"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Intangible -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Intangible">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Ist_month_of_year -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Ist_month_of_year">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Iteration -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Iteration">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Legs -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Legs">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Moisture_regain -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Moisture_regain">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Movable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Movable">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Ploygen -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Ploygen">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Instances"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Relation_attributes -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Relation_attributes">
+        <rdfs:subPropertyOf rdf:resource="&owl;backwardCompatibleWith"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Relational_attributes -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Relational_attributes">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Reproduction -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Reproduction">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Seventh_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Seventh_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Sharpness -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Sharpness">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Sixth_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Sixth_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Skelton_System -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Skelton_System">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Solvent_solubility -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Solvent_solubility">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Tangible -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Tangible">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Third_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Third_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Unchanged -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Unchanged">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#User_definable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;User_definable">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Weightless -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Weightless">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Written_work -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;Written_work">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#affects_horizotal -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;affects_horizotal">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#anger -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;anger">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#angle -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;angle">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#assertion_that_express_an_opinion -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;assertion_that_express_an_opinion">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#attribute_identifiers -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;attribute_identifiers">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#being_at_same_level -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;being_at_same_level">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#brilliance_and_intensity_of_color -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;brilliance_and_intensity_of_color">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#broken_any_body_part -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;broken_any_body_part">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Exceptions"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#changeable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;changeable">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#characteristics_to_define_relationships -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;characteristics_to_define_relationships">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#circle -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;circle">
+        <untitled-ontology-82:circle rdf:datatype="&xsd;int">Yes</untitled-ontology-82:circle>
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Instances"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#color -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;color">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#constant_volume -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;constant_volume">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#constituting_number_two_in_sequence -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;constituting_number_two_in_sequence">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#create_awareness -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;create_awareness">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#decision_making -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;decision_making">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#defines_property__of_object -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;defines_property__of_object">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#defines_state_of_physical_system -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;defines_state_of_physical_system">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#dependent_entity_definition -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;dependent_entity_definition">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#dimensions -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;dimensions">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#division_of_time_equal_to_24_hours -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;division_of_time_equal_to_24_hours">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#do_not_possess_life -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;do_not_possess_life">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#duration -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;duration">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#each_of_the_twelve_named_periods_into_which_a_year_is_divided. -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;each_of_the_twelve_named_periods_into_which_a_year_is_divided.">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#emotions -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;emotions">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#even_or_odd -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;even_or_odd">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#events -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;events">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#facts -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;facts">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#false -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;false">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fear -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;fear">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#feel -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;feel">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#feeling -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;feeling">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fiber_is_found -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;fiber_is_found">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#first_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;first_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#free_from_moisture -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;free_from_moisture">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#good_people_skills -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;good_people_skills">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#growth -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;growth">
+        <untitled-ontology-82:growth rdf:datatype="&xsd;positiveInteger">yes {Yes, No}</untitled-ontology-82:growth>
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#ha_some_property -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;ha_some_property">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#ha_some_weight -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;ha_some_weight">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_body -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_body">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_ears -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_ears">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_eyes -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_eyes">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_latitude -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_latitude">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_longitude -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_longitude">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_mouth -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_mouth">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_nose -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_nose">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_skin -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_skin">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_name -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_some_name">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_value -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_some_value">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_touch_taste_smell -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_touch_taste_smell">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_touch_taste_smell_sight_hearning -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_touch_taste_smell_sight_hearning">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_toungue -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;has_toungue">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#horizontal -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;horizontal">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#independent_entity_definition -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;independent_entity_definition">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#inert_and_unchanging -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;inert_and_unchanging">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#invented_by_human -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;invented_by_human">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#left -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;left">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#length_of_time -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;length_of_time">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#like -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;like">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#limit_of_surrounding -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;limit_of_surrounding">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#location_with_ref_environment -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;location_with_ref_environment">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#make_an_apperance -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;make_an_apperance">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#mass -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;mass">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#matter_of_mathematical -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;matter_of_mathematical">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#measured_in_terms_of_product -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;measured_in_terms_of_product">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#no_involvement_of_human -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;no_involvement_of_human">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#no_stuff -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;no_stuff">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Exceptions"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#non-physical -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;non-physical">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#non_physical -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;non_physical">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#not_fully_aware -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;not_fully_aware">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#not_movable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;not_movable">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#one_millionth_of_a_second -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;one_millionth_of_a_second">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#one_thousand-millionth_of_a_second -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;one_thousand-millionth_of_a_second">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#one_thousandth_of_second -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;one_thousandth_of_second">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#organised -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;organised">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#part_of_universe -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;part_of_universe">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#particuler_kind_of_stuff -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;particuler_kind_of_stuff">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_365_days -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;period_of_365_days">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_seven_days -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;period_of_seven_days">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#place_particular_object_exists -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;place_particular_object_exists">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#positional_attribute -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;positional_attribute">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#produces_energy -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;produces_energy">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#really_exists -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;really_exists">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#rectangle -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;rectangle">
+        <untitled-ontology-82:Instances rdf:datatype="&xsd;int">Yes</untitled-ontology-82:Instances>
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Instances"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#relative -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;relative">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#renewable -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;renewable">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#reservoir_of_feelings -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;reservoir_of_feelings">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#restriction_of_Duration -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;restriction_of_Duration">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#reveals_useful_information_about_the_velocity_of_the_object -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;reveals_useful_information_about_the_velocity_of_the_object">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#right -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;right">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#saturated_with_water -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;saturated_with_water">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#second_day_of_week -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;second_day_of_week">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sense__of_touch -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;sense__of_touch">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sense_of_touch_and_taste -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;sense_of_touch_and_taste">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#set_of_things_happening -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;set_of_things_happening">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#shape -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;shape">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#shape_of_the__area -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;shape_of_the__area">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sight -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;sight">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sixtieth_of_an_hour -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;sixtieth_of_an_hour">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#size -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;size">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#smell -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;smell">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#social_role -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;social_role">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#specifies__positioning -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;specifies__positioning">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#stable_in_shape -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;stable_in_shape">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#static -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;static">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#strength -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;strength">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#substance_expand_freely -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;substance_expand_freely">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#tangible_contrarieties -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;tangible_contrarieties">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#taste -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;taste">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#thing_done -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;thing_done">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#thing_that_happens -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;thing_that_happens">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#total_no_of_competitors -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;total_no_of_competitors">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#touch -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;touch">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#triangle -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;triangle">
+        <untitled-ontology-82:triangle rdf:datatype="&xsd;int">Yes</untitled-ontology-82:triangle>
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Instances"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#true -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;true">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#truth_value -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;truth_value">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#truthiness -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;truthiness">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#undeceive -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;undeceive">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Exceptions"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#unlike -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;unlike">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#usefulness -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;usefulness">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#vertical -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;vertical">
+        <rdfs:subPropertyOf rdf:resource="&rdfs;label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#volume -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;volume">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#walk -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;walk">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Cancellable_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#written_representation -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-82;written_representation">
+        <rdfs:subPropertyOf rdf:resource="&untitled-ontology-82;Defining_Properties"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#anger -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;anger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#angle -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;angle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#attribute_identifiers -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;attribute_identifiers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#changeable -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;changeable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#color -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#commulative -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;commulative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#dimensions -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;dimensions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#discretion -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;discretion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#even_or_odd -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;even_or_odd"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fear -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;fear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#feel -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;feel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#feeling -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;feeling"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#good_people_skills -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;good_people_skills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#growth -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;growth">
+        <untitled-ontology-82:growth rdf:datatype="&xsd;positiveInteger">yes {Yes, No}</untitled-ontology-82:growth>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_body -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_body"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_ears -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_ears"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_eyes -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_eyes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_latitude -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_latitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_longitude -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_longitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_mouth -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_mouth"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_nose -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_nose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_skin -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_skin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_name -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_some_name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_value -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_some_value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_weight -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_some_weight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_tongue -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;has_tongue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#iteration -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;iteration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#legs -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;legs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#location_with_ref_environment -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;location_with_ref_environment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#mass -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;mass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#moisture_regain -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;moisture_regain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#organised -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;organised"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#produces_energy -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;produces_energy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#relative -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;relative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#renewable -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;renewable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#reproduction -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;reproduction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#shape -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;shape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sharpness -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;sharpness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#size -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;size"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#skelton_system -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;skelton_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#solvent_solubility -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;solvent_solubility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#static -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;static"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#strength -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;strength"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#total_no_of_competitors -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;total_no_of_competitors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#truthiness -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;truthiness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#unchanged -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;unchanged"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#usefulness -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;usefulness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#volume -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;volume"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#walk -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;walk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#weightless -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-82;weightless"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#10th_month_of_the_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;10th_month_of_the_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#11th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;11th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#12th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;12th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#1st_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;1st_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#2nd_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;2nd_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#3rd_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;3rd_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#4th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;4th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#5th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;5th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#6th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;6th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#7th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;7th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#8th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;8th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#9th_month_of_year -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;9th_month_of_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#affects_horizontal -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;affects_horizontal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#an_arithmatic_value -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;an_arithmatic_value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#assertion_that_express_an_opinion -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;assertion_that_express_an_opinion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#being_at_same_level -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;being_at_same_level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#brilliance_and_intensity_of_color -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;brilliance_and_intensity_of_color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#characteristics_to_define_relationships -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;characteristics_to_define_relationships"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#consious_mental_reaction -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;consious_mental_reaction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#consiousness -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;consiousness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#constant_volume -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;constant_volume"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#consttuting_number_two_in_sequence -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;consttuting_number_two_in_sequence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#create_awareness -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;create_awareness"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#decision_making -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;decision_making"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#defines_property_of_object -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;defines_property_of_object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#defines_state_of_physical_system -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;defines_state_of_physical_system"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#dependent_entity_definition -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;dependent_entity_definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#division_of_time_equal_to_24_hours -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;division_of_time_equal_to_24_hours"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#do_not_possess_life -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;do_not_possess_life"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#duration -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#each_of_the_twelve_named_periods_onto_which_a_year_is_disabled -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;each_of_the_twelve_named_periods_onto_which_a_year_is_disabled"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fiber_is_found -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;fiber_is_found"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fifth_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;fifth_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#first_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;first_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#fourth_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;fourth_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#free_from_moisture -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;free_from_moisture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_some_property -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;has_some_property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_touch_taste_smell -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;has_touch_taste_smell"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#has_touch_taste_smellsight_hearingl -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;has_touch_taste_smellsight_hearingl"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#independent_entity_definition -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;independent_entity_definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#inert_and_chnaging -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;inert_and_chnaging"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#intangible -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;intangible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#invented_by_human -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;invented_by_human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#length_of_time -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;length_of_time"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#limit_of_sorrounding -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;limit_of_sorrounding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#make_an_appearance -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;make_an_appearance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#matter_of_mathematical -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;matter_of_mathematical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#measured_in_terms_of_product -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;measured_in_terms_of_product"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#movable -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;movable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#no_involvement_of_human -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;no_involvement_of_human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#non_physical -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;non_physical"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#not_movable -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;not_movable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#noy_fully_aware -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;noy_fully_aware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#one_millionth_of_second -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;one_millionth_of_second"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#one_thousand_millionth_of_second -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;one_thousand_millionth_of_second"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#part_of_universe -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;part_of_universe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#particular_kind_of_stuff -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;particular_kind_of_stuff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_365_days -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;period_of_365_days"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_seven_days -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;period_of_seven_days"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#period_of_time_equal_to_one_twenty_fourth_of_a_mean_solar -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;period_of_time_equal_to_one_twenty_fourth_of_a_mean_solar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#place_particular_object_exists -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;place_particular_object_exists"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#really_exists -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;really_exists"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#reservoir_of_feelings -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;reservoir_of_feelings"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#restriction_of_duration -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;restriction_of_duration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#reveals_useful_information_about_velocity_of_the_object -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;reveals_useful_information_about_velocity_of_the_object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#saturated_with_water -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;saturated_with_water"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#second_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;second_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sense_of_touch -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;sense_of_touch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sense_of_touch_taste -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;sense_of_touch_taste"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#set_of_things_happening -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;set_of_things_happening"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#seventh_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;seventh_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#shape_of_an_area -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;shape_of_an_area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sight -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;sight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sixth_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;sixth_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#sixtieth_of_an_hour -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;sixtieth_of_an_hour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#smell -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;smell"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#specifies_positioning -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;specifies_positioning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#stable_in_shape -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;stable_in_shape"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#substance_expand_freely -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;substance_expand_freely"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#tangible -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;tangible"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#tangible_contrarieties -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;tangible_contrarieties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#taste -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;taste"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#thing_done -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;thing_done"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#thing_that_happens -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;thing_that_happens"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#third_day_of_week -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;third_day_of_week"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#touch -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;touch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#user_definable -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;user_definable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#written_representation -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;written_representation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#written_work -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-82;written_work"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#1_Sensed -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;1_Sensed">
+        <rdfs:label rdf:datatype="&xsd;language">1-sensed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Immobile"/>
+        <untitled-ontology-82:sense__of_touch rdf:datatype="&xsd;token">Yes</untitled-ontology-82:sense__of_touch>
+        <untitled-ontology-82:feel rdf:datatype="&xsd;boolean">true</untitled-ontology-82:feel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#2_Sensed -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;2_Sensed">
+        <rdfs:label rdf:datatype="&xsd;language">2-sensed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mobile"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;3_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;4_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;5_Sensed"/>
+        <untitled-ontology-82:has_mouth rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_mouth>
+        <untitled-ontology-82:has_body rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_body>
+        <untitled-ontology-82:sense_of_touch_and_taste rdf:datatype="&xsd;token">yes</untitled-ontology-82:sense_of_touch_and_taste>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#3_Sensed -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;3_Sensed">
+        <rdfs:label rdf:datatype="&xsd;language">3-sensed
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mobile"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;4_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;5_Sensed"/>
+        <untitled-ontology-82:has_touch_taste_smell rdf:datatype="&xsd;token">Yes</untitled-ontology-82:has_touch_taste_smell>
+        <untitled-ontology-82:has_body rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_body>
+        <untitled-ontology-82:has_nose rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_nose>
+        <untitled-ontology-82:has_mouth rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_mouth>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#4_Sensed -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;4_Sensed">
+        <rdfs:label rdf:datatype="&xsd;language">4-sensed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mobile"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;5_Sensed"/>
+        <untitled-ontology-82:smell>yes</untitled-ontology-82:smell>
+        <untitled-ontology-82:taste>yes</untitled-ontology-82:taste>
+        <untitled-ontology-82:touch>yes</untitled-ontology-82:touch>
+        <untitled-ontology-82:sight>yes</untitled-ontology-82:sight>
+        <untitled-ontology-82:Skelton_System>Exoskelton</untitled-ontology-82:Skelton_System>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#5_Sensed -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;5_Sensed">
+        <rdfs:label rdf:datatype="&xsd;language">5-sensed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mobile"/>
+        <untitled-ontology-82:has_touch_taste_smell_sight_hearning rdf:datatype="&xsd;token">Yes</untitled-ontology-82:has_touch_taste_smell_sight_hearning>
+        <untitled-ontology-82:has_ears rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_ears>
+        <untitled-ontology-82:has_eyes rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_eyes>
+        <untitled-ontology-82:has_skin rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_skin>
+        <untitled-ontology-82:has_toungue rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_toungue>
+        <untitled-ontology-82:has_nose rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_nose>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Abstract_Entity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Abstract_Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Abstract_Entity
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Concrete_Entity"/>
+        <untitled-ontology-82:Intangible>Yes</untitled-ontology-82:Intangible>
+        <untitled-ontology-82:Weightless>Yes</untitled-ontology-82:Weightless>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Actions -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Actions">
+        <rdfs:label rdf:datatype="&xsd;language">actions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Emotions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Events"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fact"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:Defining_Properties rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Defining_Properties>
+        <untitled-ontology-82:total_no_of_competitors rdf:datatype="&xsd;boolean">true</untitled-ontology-82:total_no_of_competitors>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Activity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Activity">
+        <rdfs:label rdf:datatype="&xsd;language">Activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Concept"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Environment"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Location"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Matter"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:User_definable rdf:datatype="&xsd;language">Yes</untitled-ontology-82:User_definable>
+        <untitled-ontology-82:Iteration rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Iteration>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Air_Bodied -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Air_Bodied">
+        <rdfs:label rdf:datatype="&xsd;language">air_bodied
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;1_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Earth_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fire_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Plant_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Water_Bodied"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Animals -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Animals">
+        <rdfs:label rdf:datatype="&xsd;language">animals</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;5_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Humans"/>
+        <untitled-ontology-82:Consiousness rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Consiousness>
+        <untitled-ontology-82:has_eyes rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_eyes>
+        <untitled-ontology-82:has_body rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_body>
+        <untitled-ontology-82:Cancellable_Properties rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Cancellable_Properties>
+        <untitled-ontology-82:has_ears rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_ears>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#April -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;April">
+        <rdfs:label rdf:datatype="&xsd;language">April</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;August"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;December"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;February"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;January"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;July"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-827:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-827:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Attributes -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Attributes">
+        <rdfs:label rdf:datatype="&xsd;language">Attributes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Emotions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Events"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fact"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:defines_property__of_object rdf:datatype="&xsd;string">yes</untitled-ontology-82:defines_property__of_object>
+        <untitled-ontology-82:attribute_identifiers rdf:datatype="&xsd;string">yes{ yes,No}</untitled-ontology-82:attribute_identifiers>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#August -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;August">
+        <rdfs:label rdf:datatype="&xsd;language">August</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;December"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;February"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;January"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;July"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-823:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-823:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Based_Abstract_Entity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Based_Abstract_Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Based_Abstract _Entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <untitled-ontology-82:independent_entity_definition rdf:datatype="&xsd;language">yes</untitled-ontology-82:independent_entity_definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Bugs -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Bugs">
+        <rdfs:label rdf:datatype="&xsd;language">bugs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;3_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Lice"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;White_Ants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Chairs -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Chairs">
+        <rdfs:label rdf:datatype="&xsd;language">chairs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Man_Made"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Computers"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Machines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Complex_Number -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Complex_Number">
+        <rdfs:label rdf:datatype="&xsd;language">Complex_number</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Numbers"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Imaginary_Number"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Real_Numbers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Computers -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Computers">
+        <rdfs:label rdf:datatype="&xsd;language">computers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Man_Made"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Machines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Concept -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Concept">
+        <rdfs:label rdf:datatype="&xsd;language">Concept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Environment"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Location"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Matter"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:ha_some_property rdf:datatype="&xsd;language">Yes</untitled-ontology-82:ha_some_property>
+        <untitled-ontology-82:Discretion rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Discretion>
+        <untitled-ontology-82:Sharpness rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Sharpness>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Concrete_Entity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Concrete_Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Concrete_Entity
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Entity"/>
+        <untitled-ontology-82:ha_some_weight rdf:datatype="&xsd;int"></untitled-ontology-82:ha_some_weight>
+        <untitled-ontology-82:Tangible rdf:datatype="&xsd;int">yes</untitled-ontology-82:Tangible>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Conscious -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Conscious">
+        <rdfs:label rdf:datatype="&xsd;language">Concious</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Subconscious"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Unconscious"/>
+        <untitled-ontology-82:create_awareness rdf:datatype="&xsd;language">Yes</untitled-ontology-82:create_awareness>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Days -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Days">
+        <rdfs:label rdf:datatype="&xsd;language">Days</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Week"/>
+        <untitled-ontology-82:division_of_time_equal_to_24_hours rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:division_of_time_equal_to_24_hours>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#December -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;December">
+        <rdfs:label rdf:datatype="&xsd;language">December</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;February"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;January"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;July"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-829:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-829:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Derived_Abstract_Entity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Derived_Abstract_Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Derived_Abstract_entity
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Abstract_Entity"/>
+        <untitled-ontology-82:dependent_entity_definition rdf:datatype="&xsd;language">yes</untitled-ontology-82:dependent_entity_definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Dry -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Dry">
+        <rdfs:label rdf:datatype="&xsd;language">dry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Saturation_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wet"/>
+        <untitled-ontology-82:free_from_moisture rdf:datatype="&xsd;language">Yes</untitled-ontology-82:free_from_moisture>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Earth_Bodied -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Earth_Bodied">
+        <rdfs:label rdf:datatype="&xsd;language">earth_bodied
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;1_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fire_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Plant_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Water_Bodied"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Emotions -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Emotions">
+        <rdfs:label rdf:datatype="&xsd;language">emotions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Events"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fact"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:anger rdf:datatype="&xsd;language">True</untitled-ontology-82:anger>
+        <untitled-ontology-82:Conscious_mental_reaction rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Conscious_mental_reaction>
+        <untitled-ontology-82:fear rdf:datatype="&xsd;boolean">true</untitled-ontology-82:fear>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Entity -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Entity">
+        <rdfs:label rdf:datatype="&xsd;language">Entity</rdfs:label>
+        <untitled-ontology-82:has_some_value rdf:datatype="&xsd;int"></untitled-ontology-82:has_some_value>
+        <untitled-ontology-82:has_some_name rdf:datatype="&xsd;string"></untitled-ontology-82:has_some_name>
+        <untitled-ontology-82:part_of_universe rdf:datatype="&xsd;string">yes</untitled-ontology-82:part_of_universe>
+        <untitled-ontology-82:part_of_universe rdf:datatype="&xsd;int">yes
+</untitled-ontology-82:part_of_universe>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Environment -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Environment">
+        <rdfs:label rdf:datatype="&xsd;language">Environment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Location"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Matter"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:Moisture_regain rdf:datatype="&xsd;language">True</untitled-ontology-82:Moisture_regain>
+        <untitled-ontology-82:fiber_is_found rdf:datatype="&xsd;language">Yes</untitled-ontology-82:fiber_is_found>
+        <untitled-ontology-82:Solvent_solubility rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Solvent_solubility>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Events -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Events">
+        <rdfs:label rdf:datatype="&xsd;language">events</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Fact"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:thing_that_happens rdf:datatype="&xsd;language">Yes</untitled-ontology-82:thing_that_happens>
+        <untitled-ontology-82:organised rdf:datatype="&xsd;boolean">true</untitled-ontology-82:organised>
+        <untitled-ontology-82:good_people_skills rdf:datatype="&xsd;boolean">true</untitled-ontology-82:good_people_skills>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Fact -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Fact">
+        <rdfs:label rdf:datatype="&xsd;language">facts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:really_exists rdf:datatype="&xsd;language">yes</untitled-ontology-82:really_exists>
+        <untitled-ontology-82:Unchanged rdf:datatype="&xsd;language">yes {Yes,No}</untitled-ontology-82:Unchanged>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Factual_Text -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Factual_Text">
+        <rdfs:label rdf:datatype="&xsd;language">factual_text</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Text"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Literary_Text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#False -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;False">
+        <rdfs:label rdf:datatype="&xsd;language">false</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Truth_Value"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Like"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;True"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Unlike"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#February -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;February">
+        <rdfs:label rdf:datatype="&xsd;language">February</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;January"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;July"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-826:nd_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-826:nd_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Figures -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Figures">
+        <rdfs:label rdf:datatype="&xsd;language">Figures</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Numbers"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Symbols"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Text"/>
+        <untitled-ontology-82:make_an_apperance rdf:datatype="&xsd;language">Yes</untitled-ontology-82:make_an_apperance>
+        <untitled-ontology-82:angle rdf:datatype="&xsd;boolean">true</untitled-ontology-82:angle>
+        <untitled-ontology-82:dimensions rdf:datatype="&xsd;boolean">true</untitled-ontology-82:dimensions>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Fillable -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Fillable">
+        <rdfs:label rdf:datatype="&xsd;language">fillable</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Pliable"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Rigid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Fire_Bodied -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Fire_Bodied">
+        <rdfs:label rdf:datatype="&xsd;language">fire_bodied
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;1_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Plant_Bodied"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Water_Bodied"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Friday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Friday">
+        <rdfs:label rdf:datatype="&xsd;language">Friday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Monday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Saturday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sunday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Thursday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Tuesday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:Sixth_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:Sixth_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Full_Time -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Full_Time">
+        <rdfs:label rdf:datatype="&xsd;language">Full_time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Position"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Part_Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Gas -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Gas">
+        <rdfs:label rdf:datatype="&xsd;language">gas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Physical_State"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Liquid"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Solid"/>
+        <untitled-ontology-82:substance_expand_freely rdf:datatype="&xsd;language">Yes</untitled-ontology-82:substance_expand_freely>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Horizontal -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Horizontal">
+        <rdfs:label rdf:datatype="&xsd;language">horizontal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Positional_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Left"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Right"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Vertical"/>
+        <untitled-ontology-82:being_at_same_level rdf:datatype="&xsd;language">Yes</untitled-ontology-82:being_at_same_level>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Hours -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Hours">
+        <rdfs:label rdf:datatype="&xsd;language">Hours</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Interval"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Week"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Years"/>
+        <untitled-ontology-82:period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Humans -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Humans">
+        <rdfs:label rdf:datatype="&xsd;language">humans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;5_Sensed"/>
+        <untitled-ontology-82:Consiousness rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Consiousness>
+        <untitled-ontology-82:has_ears rdf:datatype="&xsd;boolean">false</untitled-ontology-82:has_ears>
+        <untitled-ontology-82:growth rdf:datatype="&xsd;boolean">false</untitled-ontology-82:growth>
+        <untitled-ontology-82:feel rdf:datatype="&xsd;boolean">true</untitled-ontology-82:feel>
+        <untitled-ontology-82:has_eyes rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_eyes>
+        <untitled-ontology-82:has_nose rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_nose>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Imaginary_Number -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Imaginary_Number">
+        <rdfs:label rdf:datatype="&xsd;language">imaginary_number</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Numbers"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Real_Numbers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Immobile -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Immobile">
+        <rdfs:label rdf:datatype="&xsd;language">immobilei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Living"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mobile"/>
+        <untitled-ontology-82:produces_energy rdf:datatype="&xsd;boolean">true</untitled-ontology-82:produces_energy>
+        <untitled-ontology-82:not_movable rdf:datatype="&xsd;language">yes</untitled-ontology-82:not_movable>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Insects -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Insects">
+        <rdfs:label rdf:datatype="&xsd;language">insects</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;2_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shells"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Worms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Intelligible_Matter -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Intelligible_Matter">
+        <rdfs:label rdf:datatype="&xsd;language">Intelligible_matter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Matter"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Perceptible_Matter"/>
+        <untitled-ontology-82:matter_of_mathematical rdf:datatype="&xsd;integer">Yes</untitled-ontology-82:matter_of_mathematical>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Internal_Attributes -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Internal_Attributes">
+        <rdfs:label rdf:datatype="&xsd;language">internal_attributes
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Relational_Attributes"/>
+        <untitled-ontology-82:measured_in_terms_of_product rdf:datatype="&xsd;language">Yes
+</untitled-ontology-82:measured_in_terms_of_product>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#January -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;January">
+        <rdfs:label rdf:datatype="&xsd;language">January
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;July"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-82:Ist_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Ist_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#July -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;July">
+        <rdfs:label rdf:datatype="&xsd;language">July</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;June"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-828:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-828:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#June -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;June">
+        <rdfs:label rdf:datatype="&xsd;language">June</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;March"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-8211:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-8211:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Left -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Left">
+        <rdfs:label rdf:datatype="&xsd;language">left</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Positional_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Right"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Vertical"/>
+        <untitled-ontology-82:affects_horizotal rdf:datatype="&xsd;language">Yes</untitled-ontology-82:affects_horizotal>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Lice -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Lice">
+        <rdfs:label rdf:datatype="&xsd;language">lice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;3_Sensed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Like -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Like">
+        <rdfs:label rdf:datatype="&xsd;language">like</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Truth_Value"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;True"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Unlike"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Liquid -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Liquid">
+        <rdfs:label rdf:datatype="&xsd;language">liquid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Physical_State"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Solid"/>
+        <untitled-ontology-82:constant_volume rdf:datatype="&xsd;int">Yes</untitled-ontology-82:constant_volume>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Literary_Text -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Literary_Text">
+        <rdfs:label rdf:datatype="&xsd;language">literary_text</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Living -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Living">
+        <rdfs:label rdf:datatype="&xsd;language">living</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Concrete_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Non_Living"/>
+        <untitled-ontology-82:Reproduction rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Reproduction>
+        <untitled-ontology-82:Consiousness rdf:datatype="&xsd;language">yes
+</untitled-ontology-82:Consiousness>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Location -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Location">
+        <rdfs:label rdf:datatype="&xsd;language">Location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Matter"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:place_particular_object_exists rdf:datatype="&xsd;language">Yes</untitled-ontology-82:place_particular_object_exists>
+        <untitled-ontology-82:has_longitude rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_longitude>
+        <untitled-ontology-82:has_latitude rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_latitude>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Machines -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Machines">
+        <rdfs:label rdf:datatype="&xsd;language">machines</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Man_Made"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Man_Made -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Man_Made">
+        <rdfs:label rdf:datatype="&xsd;language">manmade</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Non_Living"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Natural"/>
+        <untitled-ontology-82:invented_by_human rdf:datatype="&xsd;token">Yes</untitled-ontology-82:invented_by_human>
+        <untitled-ontology-82:usefulness rdf:datatype="&xsd;boolean">true</untitled-ontology-82:usefulness>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#March -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;March">
+        <rdfs:label rdf:datatype="&xsd;language">March</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;May"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-825:rd_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-825:rd_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Mathematical_Objects -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Mathematical_Objects">
+        <rdfs:label rdf:datatype="&xsd;language">Mathematical_objects
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Propositions"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:inert_and_unchanging rdf:datatype="&xsd;int">yes
+</untitled-ontology-82:inert_and_unchanging>
+        <untitled-ontology-82:even_or_odd rdf:datatype="&xsd;int">yes {yes, No}</untitled-ontology-82:even_or_odd>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Matter -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Matter">
+        <rdfs:label rdf:datatype="&xsd;language">Matter
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mind"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:volume rdf:datatype="&xsd;int"></untitled-ontology-82:volume>
+        <untitled-ontology-82:mass rdf:datatype="&xsd;int"></untitled-ontology-82:mass>
+        <untitled-ontology-82:color rdf:datatype="&xsd;string"></untitled-ontology-82:color>
+        <untitled-ontology-82:no_stuff rdf:datatype="&xsd;language">Yes</untitled-ontology-82:no_stuff>
+        <untitled-ontology-82:particuler_kind_of_stuff rdf:datatype="&xsd;int">yes
+</untitled-ontology-82:particuler_kind_of_stuff>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#May -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;May">
+        <rdfs:label rdf:datatype="&xsd;language">May</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;November"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-8210:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-8210:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Microsecond -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Microsecond">
+        <rdfs:label rdf:datatype="&xsd;language">Microsecond</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Millisecond"/>
+        <untitled-ontology-82:one_millionth_of_a_second rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:one_millionth_of_a_second>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Millisecond -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Millisecond">
+        <rdfs:label rdf:datatype="&xsd;language">Millisecond</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Seconds"/>
+        <untitled-ontology-82:one_thousandth_of_second rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:one_thousandth_of_second>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Mind -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Mind">
+        <rdfs:label rdf:datatype="&xsd;language">mind</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Situation"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:feeling rdf:datatype="&xsd;boolean">true</untitled-ontology-82:feeling>
+        <untitled-ontology-82:undeceive rdf:datatype="&xsd;language">yes</untitled-ontology-82:undeceive>
+        <untitled-ontology-82:decision_making rdf:datatype="&xsd;language">yes</untitled-ontology-82:decision_making>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Minutes -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Minutes">
+        <rdfs:label rdf:datatype="&xsd;language">Minutes
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Hours"/>
+        <untitled-ontology-82:sixtieth_of_an_hour rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:sixtieth_of_an_hour>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Mobile -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Mobile">
+        <rdfs:label rdf:datatype="&xsd;language">mobile
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Living"/>
+        <untitled-ontology-82:Legs rdf:datatype="&xsd;integer">2</untitled-ontology-82:Legs>
+        <untitled-ontology-82:broken_any_body_part rdf:datatype="&xsd;boolean">true</untitled-ontology-82:broken_any_body_part>
+        <untitled-ontology-82:Movable>Yes</untitled-ontology-82:Movable>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Monday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Monday">
+        <rdfs:label rdf:datatype="&xsd;language">Monday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Saturday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sunday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Thursday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Tuesday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:second_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:second_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Months -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Months">
+        <rdfs:label rdf:datatype="&xsd;language">Months</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Years"/>
+        <untitled-ontology-82:each_of_the_twelve_named_periods_into_which_a_year_is_divided. rdf:datatype="&xsd;language">Yes</untitled-ontology-82:each_of_the_twelve_named_periods_into_which_a_year_is_divided.>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Moon -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Moon">
+        <rdfs:label rdf:datatype="&xsd;language">moon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Natural"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Mountains"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Storms"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sun"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Mountains -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Mountains">
+        <rdfs:label rdf:datatype="&xsd;language">mountains</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Natural"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Storms"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sun"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Nanosecond -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Nanosecond">
+        <rdfs:label rdf:datatype="&xsd;language">Nanosecond</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Microsecond"/>
+        <untitled-ontology-82:one_thousand-millionth_of_a_second rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:one_thousand-millionth_of_a_second>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Natural -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Natural">
+        <rdfs:label rdf:datatype="&xsd;language">natural</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Non_Living"/>
+        <untitled-ontology-82:no_involvement_of_human rdf:datatype="&xsd;token">Yes</untitled-ontology-82:no_involvement_of_human>
+        <untitled-ontology-82:renewable rdf:datatype="&xsd;boolean">true</untitled-ontology-82:renewable>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Non_Living -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Non_Living">
+        <rdfs:label rdf:datatype="&xsd;language">non_living
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Concrete_Entity"/>
+        <untitled-ontology-82:shape rdf:datatype="&xsd;boolean">true</untitled-ontology-82:shape>
+        <untitled-ontology-82:do_not_possess_life rdf:datatype="&xsd;language">yes</untitled-ontology-82:do_not_possess_life>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#November -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;November">
+        <rdfs:label rdf:datatype="&xsd;language">November
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;October"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-822:th_month_of_year rdf:datatype="&xsd;language">yes
+</untitled-ontology-822:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Numbers -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Numbers">
+        <rdfs:label rdf:datatype="&xsd;language">Numbers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Symbols"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Text"/>
+        <untitled-ontology-82:An_Airthmatic_Value rdf:datatype="&owl;real">Yes</untitled-ontology-82:An_Airthmatic_Value>
+        <untitled-ontology-82:Commulative rdf:datatype="&xsd;integer">Yes {Yes, No}</untitled-ontology-82:Commulative>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#October -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;October">
+        <rdfs:label rdf:datatype="&xsd;language">October</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;September"/>
+        <untitled-ontology-8212:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-8212:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Part_Time -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Part_Time">
+        <rdfs:label rdf:datatype="&xsd;language">Part_tme</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Perceptible_Matter -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Perceptible_Matter">
+        <rdfs:label rdf:datatype="&xsd;language">Perceptible_matter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Matter"/>
+        <untitled-ontology-82:Defining_Properties rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Defining_Properties>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Physical_State -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Physical_State">
+        <rdfs:label rdf:datatype="&xsd;language">physical_state</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Internal_Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Saturation_Attribute"/>
+        <untitled-ontology-82:Defining_Properties rdf:datatype="&xsd;language">Yes
+</untitled-ontology-82:Defining_Properties>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Plant_Bodied -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Plant_Bodied">
+        <rdfs:label rdf:datatype="&xsd;language">plant_bodied
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;1_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Water_Bodied"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Pliable -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Pliable">
+        <rdfs:label rdf:datatype="&xsd;language">pliable
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Rigid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Positional_Attribute -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Positional_Attribute">
+        <rdfs:label rdf:datatype="&xsd;language">positional_attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Relational_Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Social_Role"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Truth_Value"/>
+        <untitled-ontology-82:specifies__positioning rdf:datatype="&xsd;language">Yes</untitled-ontology-82:specifies__positioning>
+        <untitled-ontology-82:static rdf:datatype="&xsd;boolean">true</untitled-ontology-82:static>
+        <untitled-ontology-82:relative rdf:datatype="&xsd;boolean">true</untitled-ontology-82:relative>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Propositions -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Propositions">
+        <rdfs:label rdf:datatype="&xsd;language">propositions
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:assertion_that_express_an_opinion rdf:datatype="&xsd;string">yes</untitled-ontology-82:assertion_that_express_an_opinion>
+        <untitled-ontology-82:truthiness rdf:datatype="&xsd;string">yes {Yes, No}</untitled-ontology-82:truthiness>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Real_Numbers -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Real_Numbers">
+        <rdfs:label rdf:datatype="&xsd;language">real_number</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Numbers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Relational_Attributes -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Relational_Attributes">
+        <rdfs:label rdf:datatype="&xsd;language">relational_attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Attributes"/>
+        <untitled-ontology-82:characteristics_to_define_relationships rdf:datatype="&xsd;language"></untitled-ontology-82:characteristics_to_define_relationships>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="&xsd;language"></owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="&xsd;language">relational_attributes</rdfs:comment>
+        <owl:annotatedSource rdf:resource="&untitled-ontology-82;Relational_Attributes"/>
+        <owl:annotatedProperty rdf:resource="&untitled-ontology-82;characteristics_to_define_relationships"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Right -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Right">
+        <rdfs:label rdf:datatype="&xsd;language">right</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Positional_Attribute"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Vertical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Rigid -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Rigid">
+        <rdfs:label rdf:datatype="&xsd;language">rigid
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Saturation_Attribute -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Saturation_Attribute">
+        <rdfs:label rdf:datatype="&xsd;language">saturation_attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Internal_Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Shape_Attribute"/>
+        <untitled-ontology-82:brilliance_and_intensity_of_color rdf:datatype="&xsd;language">Yes</untitled-ontology-82:brilliance_and_intensity_of_color>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Saturday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Saturday">
+        <rdfs:label rdf:datatype="&xsd;language">Saturday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sunday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Thursday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Tuesday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:Seventh_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:Seventh_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Scorpions -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Scorpions">
+        <rdfs:label rdf:datatype="&xsd;language">scorpions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;4_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spiders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Seconds -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Seconds">
+        <rdfs:label rdf:datatype="&xsd;language">Seconds
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Minutes"/>
+        <untitled-ontology-82:constituting_number_two_in_sequence rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:constituting_number_two_in_sequence>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#September -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;September">
+        <rdfs:label rdf:datatype="&xsd;language">September</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Months"/>
+        <untitled-ontology-824:th_month_of_year rdf:datatype="&xsd;language">Yes</untitled-ontology-824:th_month_of_year>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Shape_Attribute -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Shape_Attribute">
+        <rdfs:label rdf:datatype="&xsd;language">shape_attribute
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Derived_Abstract_Entity"/>
+        <untitled-ontology-82:shape_of_the__area rdf:datatype="&xsd;language">Yes</untitled-ontology-82:shape_of_the__area>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Shells -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Shells">
+        <rdfs:label rdf:datatype="&xsd;language">shells</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;2_Sensed"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Worms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Situation -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Situation">
+        <rdfs:label rdf:datatype="&xsd;language">Situation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Space"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:set_of_things_happening rdf:datatype="&xsd;language">Yes
+</untitled-ontology-82:set_of_things_happening>
+        <untitled-ontology-82:location_with_ref_environment rdf:datatype="&xsd;boolean">true</untitled-ontology-82:location_with_ref_environment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Social_Role -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Social_Role">
+        <rdfs:label rdf:datatype="&xsd;language">social_role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Relational_Attributes"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Truth_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Solid -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Solid">
+        <rdfs:label rdf:datatype="&xsd;language">solid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Physical_State"/>
+        <untitled-ontology-82:stable_in_shape rdf:datatype="&xsd;language">Yes</untitled-ontology-82:stable_in_shape>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Space -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Space">
+        <rdfs:label rdf:datatype="&xsd;language">space
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Spirit"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:limit_of_surrounding rdf:datatype="&xsd;int">yes</untitled-ontology-82:limit_of_surrounding>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Spiders -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Spiders">
+        <rdfs:label rdf:datatype="&xsd;language">spiders</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;4_Sensed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Spirit -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Spirit">
+        <rdfs:label rdf:datatype="&xsd;language">spirit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:strength rdf:datatype="&xsd;boolean">true</untitled-ontology-82:strength>
+        <untitled-ontology-82:non-physical rdf:datatype="&xsd;language">yes</untitled-ontology-82:non-physical>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Storms -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Storms">
+        <rdfs:label rdf:datatype="&xsd;language">storms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Natural"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Sun"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Subconscious -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Subconscious">
+        <rdfs:label rdf:datatype="&xsd;language">subconscious</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mind"/>
+        <untitled-ontology-82:not_fully_aware rdf:datatype="&xsd;language">Yes</untitled-ontology-82:not_fully_aware>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Sun -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Sun">
+        <rdfs:label rdf:datatype="&xsd;language">sun</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Natural"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Sunday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Sunday">
+        <rdfs:label rdf:datatype="&xsd;language">Sunday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Thursday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Tuesday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:first_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:first_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Symbols -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Symbols">
+        <rdfs:label rdf:datatype="&xsd;language">symbols</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Text"/>
+        <untitled-ontology-82:size rdf:datatype="&xsd;positiveInteger">Yes {Yes, No}</untitled-ontology-82:size>
+        <untitled-ontology-82:shape rdf:datatype="&xsd;token">Yes {Yes, No}</untitled-ontology-82:shape>
+        <untitled-ontology-82:written_representation rdf:datatype="&xsd;language">yes</untitled-ontology-82:written_representation>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Text -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Text">
+        <rdfs:label rdf:datatype="&xsd;language">text</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mathematical_Objects"/>
+        <untitled-ontology-82:Written_work rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Written_work>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Thursday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Thursday">
+        <rdfs:label rdf:datatype="&xsd;language">Thursday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Tuesday"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:Fifth_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:Fifth_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Time -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Time">
+        <rdfs:label rdf:datatype="&xsd;language">time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Based_Abstract_Entity"/>
+        <untitled-ontology-82:duration rdf:datatype="&xsd;int">yes</untitled-ontology-82:duration>
+        <untitled-ontology-82:changeable rdf:datatype="&xsd;int">yes {Yes,No}</untitled-ontology-82:changeable>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Time_Duration -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Time_Duration">
+        <rdfs:label rdf:datatype="&xsd;language">time_duration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Time_Position"/>
+        <untitled-ontology-82:restriction_of_Duration rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:restriction_of_Duration>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Time_Interval -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Time_Interval">
+        <rdfs:label rdf:datatype="&xsd;language">Time_interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Duration"/>
+        <untitled-ontology-82:length_of_time rdf:datatype="&xsd;dateTime">Yes</untitled-ontology-82:length_of_time>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Time_Position -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Time_Position">
+        <rdfs:label rdf:datatype="&xsd;language">Time_position</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time"/>
+        <untitled-ontology-82:reveals_useful_information_about_the_velocity_of_the_object rdf:datatype="&xsd;language">Yes</untitled-ontology-82:reveals_useful_information_about_the_velocity_of_the_object>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#True -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;True">
+        <rdfs:label rdf:datatype="&xsd;language">true</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Truth_Value"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Unlike"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Truth_Value -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Truth_Value">
+        <rdfs:label rdf:datatype="&xsd;language">truth_value</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Relational_Attributes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Tuesday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Tuesday">
+        <rdfs:label rdf:datatype="&xsd;language">Tuesday
+</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Wednesday"/>
+        <untitled-ontology-82:Third_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:Third_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Unconscious -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Unconscious">
+        <rdfs:label rdf:datatype="&xsd;language">Unconscious</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Mind"/>
+        <untitled-ontology-82:reservoir_of_feelings rdf:datatype="&xsd;language">Yes</untitled-ontology-82:reservoir_of_feelings>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Unlike -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Unlike">
+        <rdfs:label rdf:datatype="&xsd;language">unlike</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Truth_Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Vertical -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Vertical">
+        <rdfs:label rdf:datatype="&xsd;language">vertical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Positional_Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Water_Bodied -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Water_Bodied">
+        <rdfs:label rdf:datatype="&xsd;language">water_bodied</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;1_Sensed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Wednesday -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Wednesday">
+        <rdfs:label rdf:datatype="&xsd;language">Wednesday</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Days"/>
+        <untitled-ontology-82:Fourth_day_of_week rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:Fourth_day_of_week>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Week -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Week">
+        <rdfs:label rdf:datatype="&xsd;language">week</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Interval"/>
+        <owl:disjointWith rdf:resource="&untitled-ontology-82;Years"/>
+        <untitled-ontology-82:period_of_seven_days rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:period_of_seven_days>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Wet -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Wet">
+        <rdfs:label rdf:datatype="&xsd;language">wet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Saturation_Attribute"/>
+        <untitled-ontology-82:saturated_with_water rdf:datatype="&xsd;language">Yes</untitled-ontology-82:saturated_with_water>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#White_Ants -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;White_Ants">
+        <rdfs:label rdf:datatype="&xsd;language">white_ants</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;3_Sensed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Wind -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Wind">
+        <rdfs:label rdf:datatype="&xsd;language">wind</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Natural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Worms -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Worms">
+        <rdfs:label rdf:datatype="&xsd;language">worms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;2_Sensed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Years -->
+
+    <owl:Class rdf:about="&untitled-ontology-82;Years">
+        <rdfs:label rdf:datatype="&xsd;language">Years</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-82;Time_Interval"/>
+        <untitled-ontology-82:period_of_365_days rdf:datatype="&rdfs;Literal">Yes</untitled-ontology-82:period_of_365_days>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Dog -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;Dog">
+        <untitled-ontology-82:Consiousness rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Consiousness>
+        <untitled-ontology-82:Legs rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Legs>
+        <untitled-ontology-82:Reproduction rdf:datatype="&xsd;boolean">true</untitled-ontology-82:Reproduction>
+        <untitled-ontology-82:has_skin rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_skin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Polygen -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;Polygen">
+        <untitled-ontology-82:Instances rdf:datatype="&xsd;int">Yes</untitled-ontology-82:Instances>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#Sita -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;Sita">
+        <untitled-ontology-82:Consiousness rdf:datatype="&xsd;language">Yes</untitled-ontology-82:Consiousness>
+        <untitled-ontology-82:has_eyes rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_eyes>
+        <untitled-ontology-82:has_ears rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_ears>
+        <untitled-ontology-82:feeling rdf:datatype="&xsd;boolean">true</untitled-ontology-82:feeling>
+        <untitled-ontology-82:has_body rdf:datatype="&xsd;boolean">true</untitled-ontology-82:has_body>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#circle -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;circle">
+        <untitled-ontology-82:circle rdf:datatype="&xsd;int">Yes</untitled-ontology-82:circle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#rectangle -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;rectangle">
+        <untitled-ontology-82:Instances rdf:datatype="&xsd;int">Yes</untitled-ontology-82:Instances>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#triangle -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-82;triangle">
+        <untitled-ontology-82:triangle rdf:datatype="&xsd;int">Yes</untitled-ontology-82:triangle>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
