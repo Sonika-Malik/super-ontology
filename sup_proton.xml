@@ -1,0 +1,5112 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82">
+    <Prefix name="" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-82" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#"/>
+    <Prefix name="untitled-ontology-822" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#11"/>
+    <Prefix name="untitled-ontology-823" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#8"/>
+    <Prefix name="untitled-ontology-824" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#9"/>
+    <Prefix name="untitled-ontology-825" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#3"/>
+    <Prefix name="untitled-ontology-826" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#2"/>
+    <Prefix name="untitled-ontology-827" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#4"/>
+    <Prefix name="untitled-ontology-828" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#7"/>
+    <Prefix name="untitled-ontology-829" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#12"/>
+    <Prefix name="untitled-ontology-8210" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#5"/>
+    <Prefix name="untitled-ontology-8211" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#6"/>
+    <Prefix name="untitled-ontology-8212" IRI="http://www.semanticweb.org/viva/ontologies/2017/4/untitled-ontology-82#10"/>
+    <Declaration>
+        <Class IRI="#1_Sensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2_Sensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_Sensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4_Sensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5_Sensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abstract_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_Bodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#April"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#August"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complex_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concrete_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conscious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Days"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#December"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earth_Bodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Factual_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#False"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#February"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Figures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fillable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fire_Bodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Full_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Happening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horizontal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Imaginary_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intelligible_Matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#January"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#July"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#June"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Like"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literary_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Man_Made"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#March"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mathematical_Objects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#May"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microsecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Millisecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minutes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Months"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mountains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nanosecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non_Living"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#November"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numbers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#October"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Part_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceptible_Matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant_Bodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pliable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positional_Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propositions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Real_Numbers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relational_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rigid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saturation_Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scorpions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seconds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#September"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape_Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spiders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spirit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subconscious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symbols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#True"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Truth_Value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unconscious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unlike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vertical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water_Bodied"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Week"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#White_Ants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Years"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#anger"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#angle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attribute_identifiers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#changeable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commulative"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dimensions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#discretion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#even_or_odd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#feeling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#good_people_skills"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#growth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_body"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ears"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_eyes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_latitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_longitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mouth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_nose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_skin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_some_name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_some_value"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_some_weight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_tongue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#iteration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#legs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location_with_ref_environment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#moisture_regain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organised"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces_energy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relative"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#renewable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reproduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sharpness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skelton_system"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#solvent_solubility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#static"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#strength"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#total_no_of_competitors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#truthiness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unchanged"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usefulness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#walk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#weightless"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#10th_month_of_the_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#11th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#12th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#1st_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#2nd_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#3rd_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#4th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#5th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#6th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#7th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#8th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#9th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#affects_horizontal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#an_arithmatic_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#assertion_that_express_an_opinion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#being_at_same_level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#brilliance_and_intensity_of_color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#characteristics_to_define_relationships"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#consious_mental_reaction"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#consiousness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#constant_volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#consttuting_number_two_in_sequence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#create_awareness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#decision_making"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#defines_property_of_object"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#defines_state_of_physical_system"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dependent_entity_definition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#division_of_time_equal_to_24_hours"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#do_not_possess_life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#each_of_the_twelve_named_periods_onto_which_a_year_is_disabled"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fiber_is_found"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fifth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fourth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#free_from_moisture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_some_property"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_touch_taste_smell"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_touch_taste_smellsight_hearingl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#independent_entity_definition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inert_and_chnaging"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#intangible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#invented_by_human"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#length_of_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#limit_of_sorrounding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#make_an_appearance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#matter_of_mathematical"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#measured_in_terms_of_product"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#movable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_involvement_of_human"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#non_physical"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#not_movable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#noy_fully_aware"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#one_millionth_of_second"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#one_thousand_millionth_of_second"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#part_of_universe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#particular_kind_of_stuff"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#period_of_365_days"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#period_of_seven_days"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#period_of_time_equal_to_one_twenty_fourth_of_a_mean_solar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#place_particular_object_exists"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#really_exists"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reservoir_of_feelings"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#restriction_of_duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#reveals_useful_information_about_velocity_of_the_object"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#saturated_with_water"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#second_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sense_of_touch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sense_of_touch_taste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#set_of_things_happening"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#seventh_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#shape_of_an_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sixth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sixtieth_of_an_hour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#smell"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#specifies_positioning"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stable_in_shape"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#substance_expand_freely"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tangible"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tangible_contrarieties"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#taste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#thing_done"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#thing_that_happens"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#third_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#touch"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#user_definable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#written_representation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#written_work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polygen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#circle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rectangle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#triangle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#10th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#11th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#12th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#2nd_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#3rd_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#4th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#5th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#6th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#7th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#8th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#9th_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Abstract_Entity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#An_Airthmatic_Value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Commulative"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Conscious_mental_reaction"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Consiousness"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Discretion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Exceptions"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Fifth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Fourth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Instances"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Intangible"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ist_month_of_year"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Iteration"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Legs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Moisture_regain"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Movable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ploygen"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Relation_attributes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Relational_attributes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Reproduction"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Seventh_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Sharpness"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Sixth_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Skelton_System"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Solvent_solubility"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Tangible"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Third_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Unchanged"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#User_definable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Weightless"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Written_work"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#affects_horizotal"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#anger"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#angle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#assertion_that_express_an_opinion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#attribute_identifiers"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#being_at_same_level"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#brilliance_and_intensity_of_color"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#broken_any_body_part"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#changeable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#characteristics_to_define_relationships"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#circle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#constant_volume"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#constituting_number_two_in_sequence"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#create_awareness"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#decision_making"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#defines_property__of_object"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#defines_state_of_physical_system"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#dependent_entity_definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#dimensions"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#division_of_time_equal_to_24_hours"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#do_not_possess_life"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#each_of_the_twelve_named_periods_into_which_a_year_is_divided."/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#emotions"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#even_or_odd"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#events"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#facts"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#false"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#fear"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#feel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#feeling"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#fiber_is_found"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#first_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#free_from_moisture"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#good_people_skills"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#growth"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ha_some_property"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#ha_some_weight"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_body"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_ears"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_eyes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_latitude"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_longitude"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_mouth"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_nose"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_skin"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_some_name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_some_value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_touch_taste_smell"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_touch_taste_smell_sight_hearning"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_toungue"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#horizontal"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#independent_entity_definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#inert_and_unchanging"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#invented_by_human"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#left"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#length_of_time"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#like"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#limit_of_surrounding"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#location_with_ref_environment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#make_an_apperance"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#mass"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#matter_of_mathematical"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#measured_in_terms_of_product"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#no_involvement_of_human"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#no_stuff"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#non-physical"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#non_physical"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#not_fully_aware"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#not_movable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#one_millionth_of_a_second"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#one_thousand-millionth_of_a_second"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#one_thousandth_of_second"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#organised"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#part_of_universe"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#particuler_kind_of_stuff"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#period_of_365_days"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#period_of_seven_days"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#place_particular_object_exists"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#positional_attribute"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#produces_energy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#really_exists"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#rectangle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#relative"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#renewable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#reservoir_of_feelings"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#restriction_of_Duration"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#reveals_useful_information_about_the_velocity_of_the_object"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#right"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#saturated_with_water"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#second_day_of_week"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#sense__of_touch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#sense_of_touch_and_taste"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#set_of_things_happening"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#shape_of_the__area"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#sight"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#sixtieth_of_an_hour"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#smell"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#social_role"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#specifies__positioning"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#stable_in_shape"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#static"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#strength"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#substance_expand_freely"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#tangible_contrarieties"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#taste"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#thing_done"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#thing_that_happens"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#total_no_of_competitors"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#touch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#triangle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#true"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#truth_value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#truthiness"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#undeceive"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#unlike"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usefulness"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#vertical"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#walk"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#written_representation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#1_Sensed"/>
+        <Class IRI="#Immobile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2_Sensed"/>
+        <Class IRI="#Mobile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_Sensed"/>
+        <Class IRI="#Mobile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4_Sensed"/>
+        <Class IRI="#Mobile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5_Sensed"/>
+        <Class IRI="#Mobile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abstract_Entity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_Bodied"/>
+        <Class IRI="#1_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animals"/>
+        <Class IRI="#5_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#April"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#August"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Based_Abstract_Entity"/>
+        <Class IRI="#Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bugs"/>
+        <Class IRI="#3_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chairs"/>
+        <Class IRI="#Man_Made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complex_Number"/>
+        <Class IRI="#Numbers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computers"/>
+        <Class IRI="#Man_Made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concrete_Entity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conscious"/>
+        <Class IRI="#Mind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Days"/>
+        <Class IRI="#Week"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#December"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Derived_Abstract_Entity"/>
+        <Class IRI="#Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dry"/>
+        <Class IRI="#Saturation_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earth_Bodied"/>
+        <Class IRI="#1_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Happening"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Events"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fact"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Factual_Text"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#False"/>
+        <Class IRI="#Truth_Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#February"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Figures"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fillable"/>
+        <Class IRI="#Shape_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fire_Bodied"/>
+        <Class IRI="#1_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Full_Time"/>
+        <Class IRI="#Time_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gas"/>
+        <Class IRI="#Physical_State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horizontal"/>
+        <Class IRI="#Positional_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hours"/>
+        <Class IRI="#Time_Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humans"/>
+        <Class IRI="#5_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Imaginary_Number"/>
+        <Class IRI="#Numbers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immobile"/>
+        <Class IRI="#Living"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insects"/>
+        <Class IRI="#2_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intelligible_Matter"/>
+        <Class IRI="#Matter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal_Attributes"/>
+        <Class IRI="#Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#January"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#July"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#June"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Left"/>
+        <Class IRI="#Positional_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lice"/>
+        <Class IRI="#3_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Like"/>
+        <Class IRI="#Truth_Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liquid"/>
+        <Class IRI="#Physical_State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literary_Text"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living"/>
+        <Class IRI="#Concrete_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machines"/>
+        <Class IRI="#Man_Made"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Man_Made"/>
+        <Class IRI="#Non_Living"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#March"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mathematical_Objects"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#May"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microsecond"/>
+        <Class IRI="#Millisecond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Millisecond"/>
+        <Class IRI="#Seconds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mind"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minutes"/>
+        <Class IRI="#Hours"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Living"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Months"/>
+        <Class IRI="#Years"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mountains"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nanosecond"/>
+        <Class IRI="#Microsecond"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural"/>
+        <Class IRI="#Non_Living"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non_Living"/>
+        <Class IRI="#Concrete_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#November"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numbers"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#October"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Part_Time"/>
+        <Class IRI="#Time_Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceptible_Matter"/>
+        <Class IRI="#Matter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_State"/>
+        <Class IRI="#Internal_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plant_Bodied"/>
+        <Class IRI="#1_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pliable"/>
+        <Class IRI="#Shape_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positional_Attribute"/>
+        <Class IRI="#Relational_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propositions"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Real_Numbers"/>
+        <Class IRI="#Numbers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relational_Attributes"/>
+        <Class IRI="#Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <Class IRI="#Positional_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rigid"/>
+        <Class IRI="#Shape_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saturation_Attribute"/>
+        <Class IRI="#Internal_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scorpions"/>
+        <Class IRI="#4_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seconds"/>
+        <Class IRI="#Minutes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#September"/>
+        <Class IRI="#Months"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shape_Attribute"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shells"/>
+        <Class IRI="#2_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Happening"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Role"/>
+        <Class IRI="#Relational_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Solid"/>
+        <Class IRI="#Physical_State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Space"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spiders"/>
+        <Class IRI="#4_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spirit"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storms"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subconscious"/>
+        <Class IRI="#Mind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sun"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sunday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symbols"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thursday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Based_Abstract_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#Happening"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Duration"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Interval"/>
+        <Class IRI="#Time_Duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Position"/>
+        <Class IRI="#Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#True"/>
+        <Class IRI="#Truth_Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Truth_Value"/>
+        <Class IRI="#Relational_Attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tuesday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unconscious"/>
+        <Class IRI="#Mind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unlike"/>
+        <Class IRI="#Truth_Value"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vertical"/>
+        <Class IRI="#Positional_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_Bodied"/>
+        <Class IRI="#1_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wednesday"/>
+        <Class IRI="#Days"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Week"/>
+        <Class IRI="#Time_Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wet"/>
+        <Class IRI="#Saturation_Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#White_Ants"/>
+        <Class IRI="#3_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wind"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worms"/>
+        <Class IRI="#2_Sensed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Years"/>
+        <Class IRI="#Time_Interval"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#2_Sensed"/>
+        <Class IRI="#3_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#2_Sensed"/>
+        <Class IRI="#4_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#2_Sensed"/>
+        <Class IRI="#5_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#3_Sensed"/>
+        <Class IRI="#4_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#3_Sensed"/>
+        <Class IRI="#5_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#4_Sensed"/>
+        <Class IRI="#5_Sensed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Abstract_Entity"/>
+        <Class IRI="#Concrete_Entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Attributes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Emotions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Events"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Fact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Actions"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Concept"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Environment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Matter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Mind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Activity"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Air_Bodied"/>
+        <Class IRI="#Earth_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Air_Bodied"/>
+        <Class IRI="#Fire_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Air_Bodied"/>
+        <Class IRI="#Plant_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Air_Bodied"/>
+        <Class IRI="#Water_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Humans"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#August"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#December"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#February"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#January"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#July"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#April"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Emotions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Events"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Fact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#December"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#February"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#January"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#July"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#August"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Based_Abstract_Entity"/>
+        <Class IRI="#Derived_Abstract_Entity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bugs"/>
+        <Class IRI="#Lice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bugs"/>
+        <Class IRI="#White_Ants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chairs"/>
+        <Class IRI="#Computers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chairs"/>
+        <Class IRI="#Machines"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Complex_Number"/>
+        <Class IRI="#Imaginary_Number"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Complex_Number"/>
+        <Class IRI="#Real_Numbers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Computers"/>
+        <Class IRI="#Machines"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Environment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Matter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Mind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Conscious"/>
+        <Class IRI="#Subconscious"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Conscious"/>
+        <Class IRI="#Unconscious"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#February"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#January"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#July"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#December"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dry"/>
+        <Class IRI="#Wet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Earth_Bodied"/>
+        <Class IRI="#Fire_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Earth_Bodied"/>
+        <Class IRI="#Plant_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Earth_Bodied"/>
+        <Class IRI="#Water_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Events"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Fact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Emotions"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Matter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Mind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Environment"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Events"/>
+        <Class IRI="#Fact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Events"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Events"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Events"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fact"/>
+        <Class IRI="#Mathematical_Objects"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fact"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fact"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Factual_Text"/>
+        <Class IRI="#Literary_Text"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#False"/>
+        <Class IRI="#Like"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#False"/>
+        <Class IRI="#True"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#False"/>
+        <Class IRI="#Unlike"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#January"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#July"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#February"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Figures"/>
+        <Class IRI="#Numbers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Figures"/>
+        <Class IRI="#Symbols"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Figures"/>
+        <Class IRI="#Text"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fillable"/>
+        <Class IRI="#Pliable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fillable"/>
+        <Class IRI="#Rigid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fire_Bodied"/>
+        <Class IRI="#Plant_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fire_Bodied"/>
+        <Class IRI="#Water_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Monday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Saturday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Sunday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Thursday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Tuesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Friday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Full_Time"/>
+        <Class IRI="#Part_Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Gas"/>
+        <Class IRI="#Liquid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Gas"/>
+        <Class IRI="#Solid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Horizontal"/>
+        <Class IRI="#Left"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Horizontal"/>
+        <Class IRI="#Right"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Horizontal"/>
+        <Class IRI="#Vertical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hours"/>
+        <Class IRI="#Week"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hours"/>
+        <Class IRI="#Years"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Imaginary_Number"/>
+        <Class IRI="#Real_Numbers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Immobile"/>
+        <Class IRI="#Mobile"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Insects"/>
+        <Class IRI="#Shells"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Insects"/>
+        <Class IRI="#Worms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Intelligible_Matter"/>
+        <Class IRI="#Perceptible_Matter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Internal_Attributes"/>
+        <Class IRI="#Relational_Attributes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#July"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#January"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#June"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#July"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#June"/>
+        <Class IRI="#March"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#June"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#June"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#June"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#June"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Left"/>
+        <Class IRI="#Right"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Left"/>
+        <Class IRI="#Vertical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Like"/>
+        <Class IRI="#True"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Like"/>
+        <Class IRI="#Unlike"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Liquid"/>
+        <Class IRI="#Solid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Living"/>
+        <Class IRI="#Non_Living"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Matter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Mind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Man_Made"/>
+        <Class IRI="#Natural"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#March"/>
+        <Class IRI="#May"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#March"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#March"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#March"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mathematical_Objects"/>
+        <Class IRI="#Propositions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mathematical_Objects"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Mind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matter"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#May"/>
+        <Class IRI="#November"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#May"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mind"/>
+        <Class IRI="#Situation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mind"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mind"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mind"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Saturday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Sunday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Thursday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Tuesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Monday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Mountains"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Storms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Sun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moon"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mountains"/>
+        <Class IRI="#Storms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mountains"/>
+        <Class IRI="#Sun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mountains"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#November"/>
+        <Class IRI="#October"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#November"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Numbers"/>
+        <Class IRI="#Symbols"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Numbers"/>
+        <Class IRI="#Text"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#October"/>
+        <Class IRI="#September"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Physical_State"/>
+        <Class IRI="#Saturation_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Plant_Bodied"/>
+        <Class IRI="#Water_Bodied"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pliable"/>
+        <Class IRI="#Rigid"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Positional_Attribute"/>
+        <Class IRI="#Social_Role"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Positional_Attribute"/>
+        <Class IRI="#Truth_Value"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Propositions"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Right"/>
+        <Class IRI="#Vertical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saturation_Attribute"/>
+        <Class IRI="#Shape_Attribute"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Sunday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Thursday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Tuesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Saturday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Scorpions"/>
+        <Class IRI="#Spiders"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Shells"/>
+        <Class IRI="#Worms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Space"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Social_Role"/>
+        <Class IRI="#Truth_Value"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Space"/>
+        <Class IRI="#Spirit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Space"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Spirit"/>
+        <Class IRI="#Time"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Storms"/>
+        <Class IRI="#Sun"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Storms"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sun"/>
+        <Class IRI="#Wind"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sunday"/>
+        <Class IRI="#Thursday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sunday"/>
+        <Class IRI="#Tuesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Sunday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Symbols"/>
+        <Class IRI="#Text"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Thursday"/>
+        <Class IRI="#Tuesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Thursday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Time_Duration"/>
+        <Class IRI="#Time_Position"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#True"/>
+        <Class IRI="#Unlike"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tuesday"/>
+        <Class IRI="#Wednesday"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Week"/>
+        <Class IRI="#Years"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#feel"/>
+        <IRI>#1_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#sense__of_touch"/>
+        <IRI>#1_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;language">1-sensed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_body"/>
+        <IRI>#2_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_mouth"/>
+        <IRI>#2_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#sense_of_touch_and_taste"/>
+        <IRI>#2_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;token">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;language">2-sensed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_body"/>
+        <IRI>#3_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_mouth"/>
+        <IRI>#3_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_nose"/>
+        <IRI>#3_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_touch_taste_smell"/>
+        <IRI>#3_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#3_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;language">3-sensed
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Skelton_System"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Exoskelton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#sight"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#smell"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#taste"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#touch"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#4_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;language">4-sensed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_ears"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_eyes"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_nose"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_skin"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_touch_taste_smell_sight_hearning"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_toungue"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#5_Sensed</IRI>
+        <Literal datatypeIRI="&xsd;language">5-sensed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Intangible"/>
+        <IRI>#Abstract_Entity</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Weightless"/>
+        <IRI>#Abstract_Entity</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Abstract_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">Abstract_Entity
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+        <IRI>#Actions</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#total_no_of_competitors"/>
+        <IRI>#Actions</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Actions</IRI>
+        <Literal datatypeIRI="&xsd;language">actions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Iteration"/>
+        <IRI>#Activity</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#User_definable"/>
+        <IRI>#Activity</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Activity</IRI>
+        <Literal datatypeIRI="&xsd;language">Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Air_Bodied</IRI>
+        <Literal datatypeIRI="&xsd;language">air_bodied
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_body"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_ears"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_eyes"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Animals</IRI>
+        <Literal datatypeIRI="&xsd;language">animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#4th_month_of_year"/>
+        <IRI>#April</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#April</IRI>
+        <Literal datatypeIRI="&xsd;language">April</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#attribute_identifiers"/>
+        <IRI>#Attributes</IRI>
+        <Literal datatypeIRI="&xsd;string">yes{ yes,No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#defines_property__of_object"/>
+        <IRI>#Attributes</IRI>
+        <Literal datatypeIRI="&xsd;string">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Attributes</IRI>
+        <Literal datatypeIRI="&xsd;language">Attributes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#8th_month_of_year"/>
+        <IRI>#August</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#August</IRI>
+        <Literal datatypeIRI="&xsd;language">August</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#independent_entity_definition"/>
+        <IRI>#Based_Abstract_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Based_Abstract_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">Based_Abstract _Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bugs</IRI>
+        <Literal datatypeIRI="&xsd;language">bugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chairs</IRI>
+        <Literal datatypeIRI="&xsd;language">chairs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Complex_Number</IRI>
+        <Literal datatypeIRI="&xsd;language">Complex_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computers</IRI>
+        <Literal datatypeIRI="&xsd;language">computers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Discretion"/>
+        <IRI>#Concept</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sharpness"/>
+        <IRI>#Concept</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ha_some_property"/>
+        <IRI>#Concept</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal datatypeIRI="&xsd;language">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Tangible"/>
+        <IRI>#Concrete_Entity</IRI>
+        <Literal datatypeIRI="&xsd;int">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#ha_some_weight"/>
+        <IRI>#Concrete_Entity</IRI>
+        <Literal datatypeIRI="&xsd;int"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concrete_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">Concrete_Entity
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#create_awareness"/>
+        <IRI>#Conscious</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conscious</IRI>
+        <Literal datatypeIRI="&xsd;language">Concious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#division_of_time_equal_to_24_hours"/>
+        <IRI>#Days</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Days</IRI>
+        <Literal datatypeIRI="&xsd;language">Days</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#12th_month_of_year"/>
+        <IRI>#December</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#December</IRI>
+        <Literal datatypeIRI="&xsd;language">December</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#dependent_entity_definition"/>
+        <IRI>#Derived_Abstract_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Derived_Abstract_Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">Derived_Abstract_entity
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <IRI>#Dog</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Legs"/>
+        <IRI>#Dog</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Reproduction"/>
+        <IRI>#Dog</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_skin"/>
+        <IRI>#Dog</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#free_from_moisture"/>
+        <IRI>#Dry</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dry</IRI>
+        <Literal datatypeIRI="&xsd;language">dry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Earth_Bodied</IRI>
+        <Literal datatypeIRI="&xsd;language">earth_bodied
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Conscious_mental_reaction"/>
+        <IRI>#Emotions</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#anger"/>
+        <IRI>#Emotions</IRI>
+        <Literal datatypeIRI="&xsd;language">True</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fear"/>
+        <IRI>#Emotions</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Emotions</IRI>
+        <Literal datatypeIRI="&xsd;language">emotions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_some_name"/>
+        <IRI>#Entity</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_some_value"/>
+        <IRI>#Entity</IRI>
+        <Literal datatypeIRI="&xsd;int"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#part_of_universe"/>
+        <IRI>#Entity</IRI>
+        <Literal datatypeIRI="&xsd;string">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#part_of_universe"/>
+        <IRI>#Entity</IRI>
+        <Literal datatypeIRI="&xsd;int">yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entity</IRI>
+        <Literal datatypeIRI="&xsd;language">Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Moisture_regain"/>
+        <IRI>#Environment</IRI>
+        <Literal datatypeIRI="&xsd;language">True</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Solvent_solubility"/>
+        <IRI>#Environment</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#fiber_is_found"/>
+        <IRI>#Environment</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Environment</IRI>
+        <Literal datatypeIRI="&xsd;language">Environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A dynamic event, such as &quot;running&quot; or &quot;a concert&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Event</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#good_people_skills"/>
+        <IRI>#Events</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#organised"/>
+        <IRI>#Events</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#thing_that_happens"/>
+        <IRI>#Events</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Events</IRI>
+        <Literal datatypeIRI="&xsd;language">events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Unchanged"/>
+        <IRI>#Fact</IRI>
+        <Literal datatypeIRI="&xsd;language">yes {Yes,No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#really_exists"/>
+        <IRI>#Fact</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fact</IRI>
+        <Literal datatypeIRI="&xsd;language">facts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Factual_Text</IRI>
+        <Literal datatypeIRI="&xsd;language">factual_text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#False</IRI>
+        <Literal datatypeIRI="&xsd;language">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#2nd_month_of_year"/>
+        <IRI>#February</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#February</IRI>
+        <Literal datatypeIRI="&xsd;language">February</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#angle"/>
+        <IRI>#Figures</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#dimensions"/>
+        <IRI>#Figures</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#make_an_apperance"/>
+        <IRI>#Figures</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Figures</IRI>
+        <Literal datatypeIRI="&xsd;language">Figures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fillable</IRI>
+        <Literal datatypeIRI="&xsd;language">fillable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fire_Bodied</IRI>
+        <Literal datatypeIRI="&xsd;language">fire_bodied
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Sixth_day_of_week"/>
+        <IRI>#Friday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Friday</IRI>
+        <Literal datatypeIRI="&xsd;language">Friday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Full_Time</IRI>
+        <Literal datatypeIRI="&xsd;language">Full_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#substance_expand_freely"/>
+        <IRI>#Gas</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gas</IRI>
+        <Literal datatypeIRI="&xsd;language">gas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#being_at_same_level"/>
+        <IRI>#Horizontal</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Horizontal</IRI>
+        <Literal datatypeIRI="&xsd;language">horizontal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar"/>
+        <IRI>#Hours</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hours</IRI>
+        <Literal datatypeIRI="&xsd;language">Hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#feel"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#growth"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_ears"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;boolean">false</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_eyes"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_nose"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Humans</IRI>
+        <Literal datatypeIRI="&xsd;language">humans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Imaginary_Number</IRI>
+        <Literal datatypeIRI="&xsd;language">imaginary_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#not_movable"/>
+        <IRI>#Immobile</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#produces_energy"/>
+        <IRI>#Immobile</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Immobile</IRI>
+        <Literal datatypeIRI="&xsd;language">immobilei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Insects</IRI>
+        <Literal datatypeIRI="&xsd;language">insects</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#matter_of_mathematical"/>
+        <IRI>#Intelligible_Matter</IRI>
+        <Literal datatypeIRI="&xsd;integer">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Intelligible_Matter</IRI>
+        <Literal datatypeIRI="&xsd;language">Intelligible_matter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#measured_in_terms_of_product"/>
+        <IRI>#Internal_Attributes</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Internal_Attributes</IRI>
+        <Literal datatypeIRI="&xsd;language">internal_attributes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Ist_month_of_year"/>
+        <IRI>#January</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#January</IRI>
+        <Literal datatypeIRI="&xsd;language">January
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#7th_month_of_year"/>
+        <IRI>#July</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#July</IRI>
+        <Literal datatypeIRI="&xsd;language">July</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#6th_month_of_year"/>
+        <IRI>#June</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#June</IRI>
+        <Literal datatypeIRI="&xsd;language">June</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#affects_horizotal"/>
+        <IRI>#Left</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Left</IRI>
+        <Literal datatypeIRI="&xsd;language">left</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lice</IRI>
+        <Literal datatypeIRI="&xsd;language">lice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Like</IRI>
+        <Literal datatypeIRI="&xsd;language">like</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#constant_volume"/>
+        <IRI>#Liquid</IRI>
+        <Literal datatypeIRI="&xsd;int">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Liquid</IRI>
+        <Literal datatypeIRI="&xsd;language">liquid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Literary_Text</IRI>
+        <Literal datatypeIRI="&xsd;language">literary_text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <IRI>#Living</IRI>
+        <Literal datatypeIRI="&xsd;language">yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Reproduction"/>
+        <IRI>#Living</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Living</IRI>
+        <Literal datatypeIRI="&xsd;language">living</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_latitude"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_longitude"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#place_particular_object_exists"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Usually a geographic location on the earth, however any sort of 3D regions also fit here. The classification is based on the ADL Feature Type Thesaurus version 070203. Additionally, classes from Geonames classification are included. For each specific type, the corresponding NIMA GNS designators (DSG) are given.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal datatypeIRI="&xsd;language">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Machines</IRI>
+        <Literal datatypeIRI="&xsd;language">machines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#invented_by_human"/>
+        <IRI>#Man_Made</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#usefulness"/>
+        <IRI>#Man_Made</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Man_Made</IRI>
+        <Literal datatypeIRI="&xsd;language">manmade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#3rd_month_of_year"/>
+        <IRI>#March</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#March</IRI>
+        <Literal datatypeIRI="&xsd;language">March</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#even_or_odd"/>
+        <IRI>#Mathematical_Objects</IRI>
+        <Literal datatypeIRI="&xsd;int">yes {yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#inert_and_unchanging"/>
+        <IRI>#Mathematical_Objects</IRI>
+        <Literal datatypeIRI="&xsd;int">yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mathematical_Objects</IRI>
+        <Literal datatypeIRI="&xsd;language">Mathematical_objects
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#color"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#mass"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;int"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#no_stuff"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#particuler_kind_of_stuff"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;int">yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#volume"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;int"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Matter</IRI>
+        <Literal datatypeIRI="&xsd;language">Matter
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#5th_month_of_year"/>
+        <IRI>#May</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#May</IRI>
+        <Literal datatypeIRI="&xsd;language">May</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#one_millionth_of_a_second"/>
+        <IRI>#Microsecond</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Microsecond</IRI>
+        <Literal datatypeIRI="&xsd;language">Microsecond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#one_thousandth_of_second"/>
+        <IRI>#Millisecond</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Millisecond</IRI>
+        <Literal datatypeIRI="&xsd;language">Millisecond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#decision_making"/>
+        <IRI>#Mind</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#feeling"/>
+        <IRI>#Mind</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#undeceive"/>
+        <IRI>#Mind</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mind</IRI>
+        <Literal datatypeIRI="&xsd;language">mind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#sixtieth_of_an_hour"/>
+        <IRI>#Minutes</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Minutes</IRI>
+        <Literal datatypeIRI="&xsd;language">Minutes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Legs"/>
+        <IRI>#Mobile</IRI>
+        <Literal datatypeIRI="&xsd;integer">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Movable"/>
+        <IRI>#Mobile</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#broken_any_body_part"/>
+        <IRI>#Mobile</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mobile</IRI>
+        <Literal datatypeIRI="&xsd;language">mobile
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#second_day_of_week"/>
+        <IRI>#Monday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Monday</IRI>
+        <Literal datatypeIRI="&xsd;language">Monday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#each_of_the_twelve_named_periods_into_which_a_year_is_divided."/>
+        <IRI>#Months</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Months</IRI>
+        <Literal datatypeIRI="&xsd;language">Months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Moon</IRI>
+        <Literal datatypeIRI="&xsd;language">moon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mountains</IRI>
+        <Literal datatypeIRI="&xsd;language">mountains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#one_thousand-millionth_of_a_second"/>
+        <IRI>#Nanosecond</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nanosecond</IRI>
+        <Literal datatypeIRI="&xsd;language">Nanosecond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#no_involvement_of_human"/>
+        <IRI>#Natural</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#renewable"/>
+        <IRI>#Natural</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Natural</IRI>
+        <Literal datatypeIRI="&xsd;language">natural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#do_not_possess_life"/>
+        <IRI>#Non_Living</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#shape"/>
+        <IRI>#Non_Living</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Non_Living</IRI>
+        <Literal datatypeIRI="&xsd;language">non_living
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#11th_month_of_year"/>
+        <IRI>#November</IRI>
+        <Literal datatypeIRI="&xsd;language">yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#November</IRI>
+        <Literal datatypeIRI="&xsd;language">November
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#An_Airthmatic_Value"/>
+        <IRI>#Numbers</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2002/07/owl#real">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Commulative"/>
+        <IRI>#Numbers</IRI>
+        <Literal datatypeIRI="&xsd;integer">Yes {Yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Numbers</IRI>
+        <Literal datatypeIRI="&xsd;language">Numbers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#10th_month_of_year"/>
+        <IRI>#October</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#October</IRI>
+        <Literal datatypeIRI="&xsd;language">October</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Part_Time</IRI>
+        <Literal datatypeIRI="&xsd;language">Part_tme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+        <IRI>#Perceptible_Matter</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perceptible_Matter</IRI>
+        <Literal datatypeIRI="&xsd;language">Perceptible_matter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+        <IRI>#Physical_State</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_State</IRI>
+        <Literal datatypeIRI="&xsd;language">physical_state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plant_Bodied</IRI>
+        <Literal datatypeIRI="&xsd;language">plant_bodied
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pliable</IRI>
+        <Literal datatypeIRI="&xsd;language">pliable
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Instances"/>
+        <IRI>#Polygen</IRI>
+        <Literal datatypeIRI="&xsd;int">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relative"/>
+        <IRI>#Positional_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#specifies__positioning"/>
+        <IRI>#Positional_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#static"/>
+        <IRI>#Positional_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Positional_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">positional_attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#assertion_that_express_an_opinion"/>
+        <IRI>#Propositions</IRI>
+        <Literal datatypeIRI="&xsd;string">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#truthiness"/>
+        <IRI>#Propositions</IRI>
+        <Literal datatypeIRI="&xsd;string">yes {Yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Propositions</IRI>
+        <Literal datatypeIRI="&xsd;language">propositions
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Real_Numbers</IRI>
+        <Literal datatypeIRI="&xsd;language">real_number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="&xsd;language">relational_attributes</Literal>
+        </Annotation>
+        <AnnotationProperty IRI="#characteristics_to_define_relationships"/>
+        <IRI>#Relational_Attributes</IRI>
+        <Literal datatypeIRI="&xsd;language"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Relational_Attributes</IRI>
+        <Literal datatypeIRI="&xsd;language">relational_attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Right</IRI>
+        <Literal datatypeIRI="&xsd;language">right</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rigid</IRI>
+        <Literal datatypeIRI="&xsd;language">rigid
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#brilliance_and_intensity_of_color"/>
+        <IRI>#Saturation_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Saturation_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">saturation_attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Seventh_day_of_week"/>
+        <IRI>#Saturday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Saturday</IRI>
+        <Literal datatypeIRI="&xsd;language">Saturday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Scorpions</IRI>
+        <Literal datatypeIRI="&xsd;language">scorpions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#constituting_number_two_in_sequence"/>
+        <IRI>#Seconds</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Seconds</IRI>
+        <Literal datatypeIRI="&xsd;language">Seconds
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#9th_month_of_year"/>
+        <IRI>#September</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#September</IRI>
+        <Literal datatypeIRI="&xsd;language">September</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#shape_of_the__area"/>
+        <IRI>#Shape_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shape_Attribute</IRI>
+        <Literal datatypeIRI="&xsd;language">shape_attribute
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Shells</IRI>
+        <Literal datatypeIRI="&xsd;language">shells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <IRI>#Sita</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#feeling"/>
+        <IRI>#Sita</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_body"/>
+        <IRI>#Sita</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_ears"/>
+        <IRI>#Sita</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has_eyes"/>
+        <IRI>#Sita</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#location_with_ref_environment"/>
+        <IRI>#Situation</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#set_of_things_happening"/>
+        <IRI>#Situation</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A static event or situation, like &quot;sitting on a chair&quot; or &quot;holding position&quot;. Typically, those are temporarily homogenous, i.e. their nature is not expected/required to change with their duration. As a happening, they used to happen/take place/be true for some periods of time and may or may not have a well-defined space extension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal datatypeIRI="&xsd;language">Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Social_Role</IRI>
+        <Literal datatypeIRI="&xsd;language">social_role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#stable_in_shape"/>
+        <IRI>#Solid</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Solid</IRI>
+        <Literal datatypeIRI="&xsd;language">solid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#limit_of_surrounding"/>
+        <IRI>#Space</IRI>
+        <Literal datatypeIRI="&xsd;int">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Space</IRI>
+        <Literal datatypeIRI="&xsd;language">space
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spiders</IRI>
+        <Literal datatypeIRI="&xsd;language">spiders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#non-physical"/>
+        <IRI>#Spirit</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#strength"/>
+        <IRI>#Spirit</IRI>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spirit</IRI>
+        <Literal datatypeIRI="&xsd;language">spirit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Storms</IRI>
+        <Literal datatypeIRI="&xsd;language">storms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#not_fully_aware"/>
+        <IRI>#Subconscious</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Subconscious</IRI>
+        <Literal datatypeIRI="&xsd;language">subconscious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sun</IRI>
+        <Literal datatypeIRI="&xsd;language">sun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#first_day_of_week"/>
+        <IRI>#Sunday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sunday</IRI>
+        <Literal datatypeIRI="&xsd;language">Sunday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#shape"/>
+        <IRI>#Symbols</IRI>
+        <Literal datatypeIRI="&xsd;token">Yes {Yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#size"/>
+        <IRI>#Symbols</IRI>
+        <Literal datatypeIRI="&xsd;positiveInteger">Yes {Yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#written_representation"/>
+        <IRI>#Symbols</IRI>
+        <Literal datatypeIRI="&xsd;language">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Symbols</IRI>
+        <Literal datatypeIRI="&xsd;language">symbols</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Written_work"/>
+        <IRI>#Text</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Text</IRI>
+        <Literal datatypeIRI="&xsd;language">text</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Fifth_day_of_week"/>
+        <IRI>#Thursday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Thursday</IRI>
+        <Literal datatypeIRI="&xsd;language">Thursday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#changeable"/>
+        <IRI>#Time</IRI>
+        <Literal datatypeIRI="&xsd;int">yes {Yes,No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#duration"/>
+        <IRI>#Time</IRI>
+        <Literal datatypeIRI="&xsd;int">yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time</IRI>
+        <Literal datatypeIRI="&xsd;language">time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">This is a general time expression, which refers to a particular period of time, an interval. Repeating periods (like Spring or Christmas) are not time intervals, while specific instances of them (like the Spring of 1944) are. A TimeInterval could collapse, in very special cases, to a time point, however in this case, in contrast to the Abstract time point (referring to some time during the day), it should be bound to a specific date, i.e. to represent a timestamp.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Time Interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#restriction_of_Duration"/>
+        <IRI>#Time_Duration</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time_Duration</IRI>
+        <Literal datatypeIRI="&xsd;language">time_duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#length_of_time"/>
+        <IRI>#Time_Interval</IRI>
+        <Literal datatypeIRI="&xsd;dateTime">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time_Interval</IRI>
+        <Literal datatypeIRI="&xsd;language">Time_interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#reveals_useful_information_about_the_velocity_of_the_object"/>
+        <IRI>#Time_Position</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Time_Position</IRI>
+        <Literal datatypeIRI="&xsd;language">Time_position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#True</IRI>
+        <Literal datatypeIRI="&xsd;language">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Truth_Value</IRI>
+        <Literal datatypeIRI="&xsd;language">truth_value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Third_day_of_week"/>
+        <IRI>#Tuesday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tuesday</IRI>
+        <Literal datatypeIRI="&xsd;language">Tuesday
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#reservoir_of_feelings"/>
+        <IRI>#Unconscious</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unconscious</IRI>
+        <Literal datatypeIRI="&xsd;language">Unconscious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unlike</IRI>
+        <Literal datatypeIRI="&xsd;language">unlike</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Vertical</IRI>
+        <Literal datatypeIRI="&xsd;language">vertical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Water_Bodied</IRI>
+        <Literal datatypeIRI="&xsd;language">water_bodied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Fourth_day_of_week"/>
+        <IRI>#Wednesday</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wednesday</IRI>
+        <Literal datatypeIRI="&xsd;language">Wednesday</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#period_of_seven_days"/>
+        <IRI>#Week</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Week</IRI>
+        <Literal datatypeIRI="&xsd;language">week</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#saturated_with_water"/>
+        <IRI>#Wet</IRI>
+        <Literal datatypeIRI="&xsd;language">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wet</IRI>
+        <Literal datatypeIRI="&xsd;language">wet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#White_Ants</IRI>
+        <Literal datatypeIRI="&xsd;language">white_ants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wind</IRI>
+        <Literal datatypeIRI="&xsd;language">wind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Worms</IRI>
+        <Literal datatypeIRI="&xsd;language">worms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#period_of_365_days"/>
+        <IRI>#Years</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Years</IRI>
+        <Literal datatypeIRI="&xsd;language">Years</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#circle"/>
+        <IRI>#circle</IRI>
+        <Literal datatypeIRI="&xsd;int">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#growth"/>
+        <IRI>#growth</IRI>
+        <Literal datatypeIRI="&xsd;positiveInteger">yes {Yes, No}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Instances"/>
+        <IRI>#rectangle</IRI>
+        <Literal datatypeIRI="&xsd;int">Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#triangle"/>
+        <IRI>#triangle</IRI>
+        <Literal datatypeIRI="&xsd;int">Yes</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#10th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#11th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#12th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#2nd_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#3rd_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#4th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#5th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#6th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#7th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#8th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#9th_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Abstract_Entity"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#An_Airthmatic_Value"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Commulative"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Conscious_mental_reaction"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Consiousness"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Discretion"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Entity"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Fifth_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Fourth_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Intangible"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Ist_month_of_year"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Iteration"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Legs"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Moisture_regain"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Movable"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Ploygen"/>
+        <AnnotationProperty IRI="#Instances"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Relation_attributes"/>
+        <AnnotationProperty abbreviatedIRI="owl:backwardCompatibleWith"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Relational_attributes"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Reproduction"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Seventh_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Sharpness"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Sixth_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Skelton_System"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Solvent_solubility"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Tangible"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Third_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Unchanged"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#User_definable"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Weightless"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Written_work"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#affects_horizotal"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#anger"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#angle"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#assertion_that_express_an_opinion"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#attribute_identifiers"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#being_at_same_level"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#brilliance_and_intensity_of_color"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#broken_any_body_part"/>
+        <AnnotationProperty IRI="#Exceptions"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#changeable"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#characteristics_to_define_relationships"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#circle"/>
+        <AnnotationProperty IRI="#Instances"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#color"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#constant_volume"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#constituting_number_two_in_sequence"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#create_awareness"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#decision_making"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#defines_property__of_object"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#defines_state_of_physical_system"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#dependent_entity_definition"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#dimensions"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#division_of_time_equal_to_24_hours"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#do_not_possess_life"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#duration"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#each_of_the_twelve_named_periods_into_which_a_year_is_divided."/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#emotions"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#even_or_odd"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#events"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#facts"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#false"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#fear"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#feel"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#feeling"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#fiber_is_found"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#first_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#free_from_moisture"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#good_people_skills"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#growth"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#ha_some_property"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#ha_some_weight"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_body"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_ears"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_eyes"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_latitude"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_longitude"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_mouth"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_nose"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_skin"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_some_name"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_some_value"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_touch_taste_smell"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_touch_taste_smell_sight_hearning"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#has_toungue"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#horizontal"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#independent_entity_definition"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#inert_and_unchanging"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#invented_by_human"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#left"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#length_of_time"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#like"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#limit_of_surrounding"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#location_with_ref_environment"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#make_an_apperance"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#mass"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#matter_of_mathematical"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#measured_in_terms_of_product"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#no_involvement_of_human"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#no_stuff"/>
+        <AnnotationProperty IRI="#Exceptions"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#non-physical"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#non_physical"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#not_fully_aware"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#not_movable"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#one_millionth_of_a_second"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#one_thousand-millionth_of_a_second"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#one_thousandth_of_second"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#organised"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#part_of_universe"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#particuler_kind_of_stuff"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#period_of_365_days"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#period_of_seven_days"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#period_of_time_equal_to_one_twenty-fourth_of_a_mean_solar"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#place_particular_object_exists"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#positional_attribute"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#produces_energy"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#really_exists"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#rectangle"/>
+        <AnnotationProperty IRI="#Instances"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#relative"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#renewable"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#reservoir_of_feelings"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#restriction_of_Duration"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#reveals_useful_information_about_the_velocity_of_the_object"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#right"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#saturated_with_water"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#second_day_of_week"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#sense__of_touch"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#sense_of_touch_and_taste"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#set_of_things_happening"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#shape"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#shape_of_the__area"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#sight"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#sixtieth_of_an_hour"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#size"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#smell"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#social_role"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#specifies__positioning"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#stable_in_shape"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#static"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#strength"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#substance_expand_freely"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#tangible_contrarieties"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#taste"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#thing_done"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#thing_that_happens"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#total_no_of_competitors"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#touch"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#triangle"/>
+        <AnnotationProperty IRI="#Instances"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#true"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#truth_value"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#truthiness"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#undeceive"/>
+        <AnnotationProperty IRI="#Exceptions"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#unlike"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#usefulness"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#vertical"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#volume"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#walk"/>
+        <AnnotationProperty IRI="#Cancellable_Properties"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#written_representation"/>
+        <AnnotationProperty IRI="#Defining_Properties"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
